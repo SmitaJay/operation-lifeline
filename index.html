@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operation Lifeline</title>
+  <style>
+    :root {
+      --primary: #0077b6;
+      --secondary: #023e8a;
+      --light: #f8f9fa;
+      --accent: #ffb703;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; background-color: var(--light); color: #333; }
+    header {
+      background: url('images/bake-sale.jpg') center/cover no-repeat;
+      color: white; text-align: center; padding: 5rem 1rem;
+    }
+    header h1 { font-size: 2.5rem; margin: 0; }
+    header p { font-size: 1.2rem; margin: 0.5rem 0; }
+    nav {
+      background: var(--secondary); display: flex; flex-wrap: wrap; justify-content: center; padding: 0.5rem;
+    }
+    nav a { color: white; text-decoration: none; margin: 0.5rem 1rem; font-weight: bold; }
+    nav a:hover { color: var(--accent); }
+    section {
+      padding: 2rem; max-width: 1000px; margin: auto; background: white; margin-bottom: 1rem;
+      border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 { color: var(--primary); }
+    .donate-btn {
+      display: inline-block; background: var(--accent); color: black; padding: 0.75rem 1.5rem;
+      font-size: 1.1rem; font-weight: bold; text-decoration: none; border-radius: 5px; margin-top: 1rem;
+    }
+    .donate-btn:hover { background: #f4a500; }
+    .event-gallery {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;
+    }
+    .event-gallery img {
+      width: 100%; height: auto; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px;
+    }
+    form button {
+      background: var(--primary); color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; cursor: pointer;
+    }
+    form button:hover { background: var(--secondary); }
+    footer {
+      background: var(--secondary); color: white; text-align: center; padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Operation Lifeline</h1>
+  <p>Bridging Healthcare Gaps, One Lifeline at a Time</p>
+  <p><em>A student-led nonprofit making healthcare more accessible for all.</em></p>
+  <a class="donate-btn" href="https://www.paypal.com/donate" target="_blank">💛 Donate Now</a>
+</header>
+
+<nav>
+  <a href="#mission">Mission</a>
+  <a href="#vision">Vision</a>
+  <a href="#about">About Us</a>
+  <a href="#events">Events</a>
+  <a href="#get-involved">Get Involved</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="mission">
+  <h2>Mission</h2>
+  <p>Operation Lifeline is a youth-led nonprofit organization dedicated to bridging healthcare gaps for underserved communities. We empower high school students to take action through fundraising, community outreach, and advocacy. Our mission is to provide financial support for children requiring medical care and to spread awareness about the healthcare challenges faced by uninsured and economically disadvantaged families in the greater Charlotte area.</p>
+</section>
+
+<section id="vision">
+  <h2>Vision</h2>
+  <p>We envision a future where every child—regardless of background—can access the medical care they need to thrive. By mobilizing youth leaders and building strong community networks, we aim to create a more equitable, compassionate healthcare landscape.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><strong>Smita Jayaprakash – Co-Founder & Co-President:</strong> Smita is a high school student passionate about medicine, community service, and equity in healthcare. She co-founded Operation Lifeline to help close the healthcare gap for underprivileged families in Charlotte. With experience in EMS, medical research, hospital internships, and leadership programs, Smita leads with compassion, creativity, and purpose.</p>
+  <p><strong>Aarav Parikh – Co-Founder & Co-President:</strong> Aarav is a driven student with a deep interest in healthcare innovation and social impact. He helps organize fundraising events, lead partnerships, and expand Operation Lifeline’s mission across local communities.</p>
+  <p><strong>Roshini – Co-Founder & Vice President:</strong> Roshini is a dedicated leader who coordinates events, manages outreach, and ensures every initiative runs with purpose and impact.</p>
+</section>
+
+<section id="events">
+  <h2>Recent & Upcoming Events</h2>
+  <ul>
+    <li>Bake Sale at Oldenburg Clubhouse – Partnered with Make-A-Wish</li>
+    <li>Efford Park Fundraiser – Raised $500</li>
+    <li>BCH Octoberfest Dessert Booth – Raised $300</li>
+    <li>SAT/ACT Tutoring Fundraiser – Ongoing</li>
+    <li>Leukemia & Lymphoma Society Campaign – Awareness & Fundraising</li>
+  </ul>
+
+  <div class="event-gallery">
+    <img src="images/bake-sale.jpg" alt="Bake Sale">
+    <img src="images/fundraiser.jpg" alt="Fundraiser">
+    <img src="images/octoberfest.jpg" alt="Octoberfest Booth">
+    <img src="images/fundraiser.jpg" alt="Fundraiser">
+    <img src="images/fundraiser2.jpg" alt="Fundraiser">
+    <img src="images/fundraiser3.jpg" alt="Fundraiser">
+    <img src="images/fundraiser4.jpg" alt="Fundraiser">
+    <img src="images/fundraiser5.jpg" alt="Fundraiser">
+    <img src="images/octoberfest2.jpg" alt="Octoberfest Booth">
+    <img src="images/octoberfest3.jpg" alt="Octoberfest Booth">
+    <img src="images/LukhemiaFundraiser.jpg" alt="Fundraiser">
+    <img src="images/octoberfest1.jpeg" alt="Octoberfest Booth">
+  </div>
+</section>
+
+<section id="get-involved">
+  <h2>Get Involved</h2>
+  <p>Want to volunteer, donate, or sponsor an event? We are always looking for passionate individuals and organizations to help expand our impact. Join the movement today!</p>
+  <a class="donate-btn" href="https://www.paypal.com/donate" target="_blank">💛 Donate Now</a>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Operation Lifeline | Built with ❤️ for community impact</p>
+</footer>
+
+</body>
+</html>
